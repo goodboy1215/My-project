@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>优品惠首页</title>
+		<link rel="stylesheet" href="css/public.css" />
+	</head>
+	<body>
+		<div id="top_wrap">
+			<div id="top_nav">
+				<ul>
+					<li><span><a href="javascript:;"> 注册 </a></span>|</li>
+					<li><span><a href="javascript:;"> 登录 </a></span>|</li>
+					<li><span><a href="javascript:;"> 我的订单 </a></span>|</li>
+					<li><span><a href="javascript:;"> 我的关注 </a></span>|</li>
+					<li><span><a href="javascript:;"> 资讯 </a></span>|</li>
+					<li><span><a href="javascript:;"> 品牌馆 </a></span>|</li>
+					<li class="phone_in">
+						<span id="top_phone_in">
+							<a href="javascript:;" id="top_listA"> 
+								<i id="top_I">
+									<img src="img/phone.png"/>
+								</i>
+								手机优品惠 
+							</a>
+						</span>
+						<div id="down_app" style="display: none;">
+							<i class="t"></i>
+							<div id="app_erwm">
+								<img alt="" title="" src="img/ewm90X90.jpg" />
+								<p><a href="javascript:;">扫一扫哦~</a></p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="header_logo">
+			<div class="logo_left">
+				<h2>
+					<a href="javascript:;">
+						<img src="img/logo.png" />
+					</a>
+				</h2>
+				<p>
+					<a href="javascript:;">
+						<img src="img/logom.jpg" />
+					</a>
+				</p>
+			</div>
+			<div class="search">
+				<div class="search_text">
+					<form method="get" action="php/search.php" name="keyform">
+						<div class="l">
+							<input type="text" class="search_in" id="search_in" name="keywords" value="请输入商品名称或货号" />
+						</div>
+						<div class="r">
+							<input type="button" class="search_btn"  />
+						</div>
+					</form>
+					<ul class="leveon-words" style="display: none;">
+						<li class="history_title">历史搜索</li>
+						<li class="history_li">
+							<a class="lis_a" href="javascript:;">请输入商品名称或货号</a>
+							<a class="del" href="javascript:;">删除</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="smalled"></div>
+			<div class="shopCar" id="shopCar">
+				<div class="car_bag">
+					<div class="w_bj">
+						<i class="icar">
+							<img src="img/gwc.png" alt="优品惠购物车" title="UGO优品惠购物车"/>
+						</i>
+						<i class="ijt" ></i>
+						<a href="javascript:;">我的购物车</a>
+						<span class="carnum" id="carnum">0</span>
+					</div>
+				</div>
+				<div class="car-info" style="display: none;">
+					<div class="carlist" id="carlist">
+						<p class="none_car">购物车里还没有商品，快去挑选吧~</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="main_nav_wrap">
+			<div class="main_nav">
+				<ul class="navUl">
+					<li class="navUl_li" id="navUl_li">
+						<a href="javascript:;">首页</a>
+					</li>
+					<li class="navUl_li" id="navUl_li">
+						<a class="navUl_liA" href="javascript:;">视频</a>
+					</li>
+					<li class="navUl_li" id="navUl_li">
+						<a href="javascript:;">食品</a>
+					</li>
+					<li class="navUl_li" id="navUl_li">
+						<a href="javascript:;">家居</a>
+					</li>
+					<li class="navUl_li" id="navUl_li">
+						<a href="javascript:;">美妆</a>
+					</li>
+					<li class="navUl_li" id="navUl_li">
+						<a href="javascript:;">服饰</a>
+					</li>
+					<li class="navUl_li" id="navUl_lastLi">
+						<dl class="lastLi_dl" id="lastLi_dl">
+							<dt class="lastLi_dt" id="lastLi_dl">
+								<p>在售分类</p>
+							</dt>
+							<dd class="lastLi_dd" id="lastLi_dd">
+								<div class="fllist">
+									<div class="fllisttop">
+										<div class="kinds">
+											<div class="kindstop">
+												<div class="start">
+													<img src="img/newsix_03.png" />
+												</div>
+												<a href="javascript:;">品质厨房</a>
+											</div>
+											<div class="kindsbot">
+												<a href="javascript:;">烹饪厨具</a>
+												<a href="javascript:;">厨房电器</a>
+												<a href="javascript:;">餐饮用具</a>
+												<a href="javascript:;">厨房配件</a>
+											</div>
+										</div>
+										<div class="kinds">
+											<div class="kindstop">
+												<div class="start">
+													<img src="img/newsix_05.png"/>
+												</div>
+												<a href="javascript:;">美食·民生</a>
+											</div>
+											<div class="kindsbot">
+												<a href="javascript:;">进口食品</a>
+												<a href="javascript:;">营养保健</a>
+												<a href="javascript:;">休闲食品</a>
+												<a href="javascript:;">粮油干货</a>
+												<a href="javascript:;">酒水茶饮</a>
+												<a href="javascript:;">生鲜食品</a>
+											</div>
+										</div>
+										<div class="kinds">
+											<div class="kindstop">
+												<div class="start">
+													<img src="img/newsix_07.png" />
+												</div>
+												<a href="javascript:;">健康生活</a>
+											</div>
+											<div class="kindsbot">
+												<a href="javascript:;">优质睡眠</a>
+												<a href="javascript:;">收纳用品</a>
+												<a href="javascript:;">生活用品</a>
+												<a href="javascript:;">生活电器</a>
+												<a href="javascript:;">装饰/家具</a>
+												<a href="javascript:;">健身/户外</a>
+												<a href="javascript:;">医疗器械</a>
+											</div>
+										</div>
+										<div class="kinds">
+											<div class="kindstop">
+												<div class="start">
+													<img src="img/newsix_09.png" />
+												</div>
+												<a href="javascript:;">魅力穿戴</a>
+											</div>
+											<div class="kindsbot">
+												<a href="javascript:;">女装</a>
+												<a href="javascript:;">男装</a>
+												<a href="javascript:;">内衣</a>
+												<a href="javascript:;">箱包</a>
+												<a href="javascript:;">鞋靴</a>
+												<a href="javascript:;">配饰</a>
+												<a href="javascript:;">户外鞋服</a>
+											</div>
+										</div>
+										<div class="kinds">
+											<div class="kindstop">
+												<div class="start">
+													<img src="img/newsix_13.png" />
+												</div>
+												<a href="javascript:;">珠宝收藏</a>
+											</div>
+											<div class="kindsbot">
+												<a href="javascript:;">翡翠玉石</a>
+												<a href="javascript:;">宝石珍珠</a>
+												<a href="javascript:;">水晶玛瑙</a>
+												<a href="javascript:;">时尚饰品</a>
+												<a href="javascript:;">钟表</a>
+												<a href="javascript:;">文化收藏</a>
+											</div>
+										</div>
+										<div class="kinds">
+											<div class="kindstop">
+												<div class="start">
+													<img src="img/newsix_11.png" />
+												</div>
+												<a href="javascript:;">美肤靓装</a>
+											</div>
+											<div class="kindsbot">
+												<a href="javascript:;">面部护理</a>
+												<a href="javascript:;">洗护护理</a>
+												<a href="javascript:;">美容仪器</a>
+												<a href="javascript:;">身体护理</a>
+												<a href="javascript:;">彩妆香水</a>
+											</div>
+										</div>
+									</div>
+									
+								</div>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		<script type="text/javascript" src="js/jquery-1.11.1.js" ></script>
+		<script type="text/javascript" src="js/public.js"></script>
+	</body>
+</html>
