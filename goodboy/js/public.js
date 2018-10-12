@@ -25,3 +25,14 @@ $('.shopCar').hover(function () {
     $('.car-info').hide();
 //  $('.cart_bag').removeClass('active');
 });
+$("#lastLi_dl").hover(function () {
+    if ($(this).find('#lastLi_dd').is(":hidden")) {
+        $(this).find('#lastLi_dt').find('p').addClass('p_hover');
+        $(this).find('#lastLi_dd').show();
+    }
+}, function () {
+    if ($(this).find('#lastLi_dd').is(":visible")) {
+        $(this).find('#lastLi_dd').hide();
+        $(this).find('#lastLi_dt').find('p').removeClass('p_hover');
+    }
+});
