@@ -36,3 +36,10 @@ $("#lastLi_dl").hover(function () {
         $(this).find('#lastLi_dt').find('p').removeClass('p_hover');
     }
 });
+
+
+$(".fly_user").hover(function(){
+	$(this).find(".sidebarcom_hover").css("right",36)
+},function(){
+	$(this).find(".sidebarcom_hover").css("right",-325)
+})

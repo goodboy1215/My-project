@@ -9,7 +9,7 @@ img,fieldset{border:0; }
 img{display:block;}
 a{text-decoration:none; color:#333;}
 h1,h2,h3,h4,h5,h6{font-weight:100;}
-body{ font-family:"微软雅黑";}
+body{ font-family:"微软雅黑";font-size: 12px;}
 input,a{outline:none;}
 
 #top_wrap{
@@ -1260,6 +1260,7 @@ input,a{outline:none;}
                     }
                     .slide_login_btn{
                         text-align: center;
+                        font-size: 12px;
                         a{
                             color: #F70800;
                             padding: 6px;
@@ -1282,6 +1283,7 @@ input,a{outline:none;}
                         color: #222222;
                         border-radius: 5px;
                         border: 1px solid #DDDDDD;
+                        font-size: 12px;
                     }
                     .a_mydd{
                         margin-right: 18px;
