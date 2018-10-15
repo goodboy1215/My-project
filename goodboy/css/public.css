@@ -31,6 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   font-family: "微软雅黑";
+  font-size: 12px;
 }
 
 input, a {
@@ -1264,6 +1265,7 @@ input, a {
 }
 .sidebar .bar_top .fly_user .sidebarcom_hover .slide_login .slide_login_btn {
   text-align: center;
+  font-size: 12px;
 }
 .sidebar .bar_top .fly_user .sidebarcom_hover .slide_login .slide_login_btn a {
   color: #F70800;
@@ -1286,6 +1288,7 @@ input, a {
   color: #222222;
   border-radius: 5px;
   border: 1px solid #DDDDDD;
+  font-size: 12px;
 }
 .sidebar .bar_top .fly_user .sidebarcom_hover .slide_login_go .a_mydd {
   margin-right: 18px;
